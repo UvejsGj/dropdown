@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  margin-left: 40px;
+  color: white;
+  position: relative; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  display: flex;
+  background-color: #196F3D;
+  width: 650px;
+  height: 50px;
+  margin-left: 650px;
+  text-align: center;
+  font-size: 18px;
+  align-items: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+.lorem1 {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: start;
+  margin-left: -10px;
+}
+
+.lorem2 {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: start;
+  z-index: 1;
+  margin-left: -10px;
+}
+
+li:hover .lorem1 {display: block;}
+
+li:hover .lorem2 {display: block;}
+
+.home:hover {
+  background-color: pink;
+}
+
+.services:hover {
+  background-color: pink;
+}
+
+.about:hover {
+  background-color: pink;
+}
+
+.blog:hover {
+  background-color: pink;
+}
+
+.contact:hover {
+  background-color: pink;
 }
